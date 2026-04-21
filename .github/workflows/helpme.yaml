@@ -151,7 +151,7 @@ jobs:
             - name: Set up Node.js
               uses: actions/setup-node@v4
               with:
-              node-version: 20
+                node-version: 20
 
             # TODO#11: install npm deps so Dependency-Check can resolve full tree
             #          Hint: `npm install` or `npm ci`
